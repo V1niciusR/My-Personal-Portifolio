@@ -3,151 +3,167 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinícius Raniery - Personal Portifolio</title>
+    <title>Vinícius Raniery - Personal Portfolio</title>
 
-    <!-- Favicons -->
-    <link href="#" rel="icon">
+    <!-- Favivcon-->
+    <link rel="shortcut icon" href="#" type="image/x-icon">
 
-    <!-- Link css -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Custom link css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Google Fonts -->
-
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body>
 
     <!-- Main -->
 
-    <aside class="sidebar" data-sidebar>
-        <div class="" sidebar-info">
-            <figure class="avatar-box">
-                <img src="#" alt="Vinícius Raniery" width="80">
-            </figure>
-            <div class="info-content">
-                <h1 class="name" title="Vinícius Raniery">Vinícius Raniery</h1>
-                <p class="title">Desenvolvedor Web</p>
+    <main>
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/Avatar1.png" alt="Vinícius Raniery" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Vinícius Raniery">Vinícius Raniery</h1>
+                    <p class="title">Desenvolvedor Web</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Mostrar contatos</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
             </div>
-            <button class="info_more-btn" data-sidebar-btn>
-                <span>Mostrar contatos</span>
 
-                <ion-icon name="chevron-down"></ion-icon>
-            </button>
-        </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="viniciusraniery@outlook.com" class="contact-link">viniciusraniery@outlook.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Telefone</p>
+                            <a href="tel:+12133522795" class="contact-link">+55 (63) xxxxx-xxxx</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Aniversário</p>
+                            <time datetime="1982-06-23">12 de Março, 2006</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Localização</p>
+                            <address>Arraias, Tocantins, Brasil</address>
+                        </div>
+                    </li>
+                </ul>
 
-        <div class="sidebar-info_more">
-            <div class="separator"></div>
-            <ul class="contacts-list">
-                <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </div>
-                    <div class="contact-info">
-                        <p class="contact-title">Email</p>
-                        <a href="viniciusraniery@outlook.com" class="contact-link">viniciusraniery@outlook.com</a>
-                    </div>
-                </li>
-                <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="phone-portrait-outline"></ion-icon>
-                    </div>
-                    <div class="contact-info">
-                        <p class="contact-title">Telefone</p>
-                        <a href="tel:=556399132-6323" class="contact-link">:55 (63) 99132-6323</a>
-                    </div>
-                </li>
-                <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="calendar-outline"></ion-icon>
-                    </div>
-                    <div class="contact-info">
-                        <p class="contact-title">Aniversário</p>
-                        <time datetime="2006-03-12">12 de Março, 2006</time>
-                    </div>
-                </li>
-                <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="location-outline"></ion-icon>
-                    </div>
-                    <div class="contact-info">
-                        <p class="contact-title">Localização</p>
-                        <address>Arraias, Tocantins, Brasil</address>
-                    </div>
-                </li>
-            </ul>
-            <div class="separator"></div>
-            <ul class="social-list">
-                <li class="social-item">
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </aside>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-    <!-- Main Content -->
+        </aside>
 
-    <div class="main-content">
 
-        <!-- Navbar -->
-        <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="navbar-item">
-                    <button class="navbar-link active">Sobre</button>
-                </li>
-                <li class="navbar-item">
-                    <button class="navbar-link">Portifolio</button>
-                </li>
-                <li class="navbar-item">
-                    <button class="navbar-link">Contato</button>
-            </ul>
-        </nav>
 
-        <!-- About -->
+        <!-- Main-->
 
-        <article class="sobre active" data-page="sobre">
-            <header>
-                <h2 class="h2 article-title">Sobre</h2>
-            </header>
-            <section class="about-text">
-                <p>
-                    Bem-vindo ao meu portifolio! Meu nome é Vinícius Raniery e sou um programador web.
-                    Venho atualmente estudando e me aperfeiçoando em desenvolvimento web, com foco na busca de novos
-                    desafios e oportunidades para aprimorar minhas habilidades e criar soluções inovadoras.
-                </p>
+        <div class="main-content">
 
-                <p>
-                    Ao longo dos anos, venho construindo uma carreira sólida com programador web, trabalhando em
-                    diversos projetos. Minha expertise abrange uma ampla gama de tecnologias, incluindo HTML, CSS,
-                    JavaScript, frameworks como React,
-                    além de ter conhecimento em banco de dados e integração de APIs.
-                </p>
+            <!-- Navbar -->
 
-                <p>
-                    Obrigado por visitar meu portifólio. Estou ansioso para trabalharmos juntos!
-                </p>
-            </section>
+            <nav class="navbar">
 
-            <!-- Service -->
-            <secion class="service">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>Sobre</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portifolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contato</button>
+                    </li>
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="sobre  active" data-page="sobre">
+
+                <header>
+                    <h2 class="h2 article-title">Sobre</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        Bem-vindo ao meu portfólio! Meu nome é Vinícius Raniery e sou um programador web.
+                        Venho atualmente buscando uma sólida formação em programação e uma vasta experiência em
+                        desenvolvimento web, estou constantemente em busca de desafios e oportunidades para aprimorar
+                        minhas habilidades e criar soluções inovadoras.
+                    </p>
+                    <p>
+                        Ao longo dos anos, venho construindo uma carreira sólida como programador web, trabalhando em
+                        diversos projetos desafiadores. Minha expertise abrange uma ampla gama de tecnologias, incluindo
+                        HTML, CSS, JavaScript, frameworks como React, além de ter conhecimento em bancos de dados e
+                        integração de APIs.
+                    </p>
+                    <p>
+                        Obrigado por visitar meu portfólio. Estou ansioso em trabalhar com você!
+                    </p>
+                </section>
+
+
+                <!-- Services -->
+
                 <section class="service">
+
                     <h3 class="h3 service-title">Com o que trabalho:</h3>
                     <ul class="service-list">
                         <li class="service-item">
@@ -161,10 +177,10 @@
                                 </p>
                             </div>
                         </li>
+
                         <li class="service-item">
                             <div class="service-icon-box">
-                                <img src="./assets/images/icon-design.svg
-                          " alt="design icon" width="40">
+                                <img src="#" alt="design icon" width="40">
                             </div>
                             <div class="service-content-box">
                                 <h4 class="h4 service-item-title">Back End</h4>
@@ -173,6 +189,7 @@
                                 </p>
                             </div>
                         </li>
+
                         <li class="service-item">
                             <div class="service-icon-box">
                                 <img src="#" alt="mobile app icon" width="40">
@@ -185,16 +202,20 @@
                             </div>
                         </li>
                     </ul>
+
                 </section>
 
-                <!-- Skills -->
+
+                <!--
+          - testimonials
+        -->
 
                 <section class="testimonials">
+
                     <h3 class="h3 testimonials-title">Linguagens</h3>
                     <ul class="testimonials-list has-scrollbar">
                         <li class="testimonials-item">
                             <div class="content-card" data-testimonials-item>
-
                                 <figure class="testimonials-avatar-box">
                                     <img src="#" alt="React" width="60" data-testimonials-avatar>
                                 </figure>
@@ -207,6 +228,7 @@
                                 </div>
                             </div>
                         </li>
+
                         <li class="testimonials-item">
                             <div class="content-card" data-testimonials-item>
                                 <figure class="testimonials-avatar-box">
@@ -219,9 +241,9 @@
                                         publishing industries for previewing layouts and visual mockups.
                                     </p>
                                 </div>
-
                             </div>
                         </li>
+
                         <li class="testimonials-item">
                             <div class="content-card" data-testimonials-item>
                                 <figure class="testimonials-avatar-box">
@@ -236,6 +258,7 @@
                                 </div>
                             </div>
                         </li>
+
                         <li class="testimonials-item">
                             <div class="content-card" data-testimonials-item>
                                 <figure class="testimonials-avatar-box">
@@ -251,12 +274,16 @@
                             </div>
                         </li>
                     </ul>
+
                 </section>
 
-                <!-- Skills modal -->
+
+                <!-- Skills Modal -->
 
                 <div class="modal-container" data-modal-container>
+
                     <div class="overlay" data-overlay></div>
+
                     <section class="testimonials-modal">
                         <button class="modal-close-btn" data-modal-close-btn>
                             <ion-icon name="close-outline"></ion-icon>
@@ -282,16 +309,13 @@
                                 </p>
                             </div>
                         </div>
-
                     </section>
-
                 </div>
-
-                <!-- Resumo -->
 
                 <header>
                     <h2 class="h2 article-title">Resumo</h2>
                 </header>
+
                 <section class="timeline">
                     <div class="title-wrapper">
                         <div class="icon-box">
@@ -350,6 +374,7 @@
                                 <div class="skill-progress-fill" style="width: 90%;"></div>
                             </div>
                         </li>
+
                         <li class="skills-item">
                             <div class="title-wrapper">
                                 <h5 class="h5">Back End</h5>
@@ -359,6 +384,7 @@
                                 <div class="skill-progress-fill" style="width: 70%;"></div>
                             </div>
                         </li>
+
                         <li class="skills-item">
                             <div class="title-wrapper">
                                 <h5 class="h5">Mobile Apps</h5>
@@ -370,18 +396,229 @@
                         </li>
                     </ul>
 
-            </secion>
-        </article>
-    </div>
+                </section>
+            </article>
 
 
 
-    <!-- Custom link Js -->
-  <script src="./assets/js/script.js"></script>
+            <!-- Portifolio -->
 
-  <!-- IonIcons Link-->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <article class="portfolio" data-page="portifolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portifolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>Todos</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Desenvolvimento Web</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Aplicações</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Banco de Dados</button>
+                        </li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-selecct-value>Selecione uma categoria</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>Todos</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Desenvolvimento Web</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Aplicações</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Banco de Dados</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-item  active" data-filter-item data-category="Desenvolvimento Web">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="#" alt="finance" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Finance</h3>
+                                <p class="project-category">Desenvolvimento Web</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Desenvolvimento Web">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Orizon</h3>
+                                <p class="project-category">Desenvolvimento Web</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Banco de Dados">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Fundo</h3>
+                                <p class="project-category">Banco de Dados</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Aplicações">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Brawlhalla</h3>
+                                <p class="project-category">Aplicações</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Banco de Dados">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                                </figure>
+                                <h3 class="project-title">DSM.</h3>
+                                <p class="project-category">Banco de Dados</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Banco de Dados">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">MetaSpark</h3>
+                                <p class="project-category">Banco de Dados</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Desenvolvimento Web">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Summary</h3>
+                                <p class="project-category">Desenvolvimento Web</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="Aplicações">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Task Manager</h3>
+                                <p class="project-category">Aplicações</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="Desenvolvimento Web">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Arrival</h3>
+                                <p class="project-category">Desenvolvimento Web</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+
+
+
+            <!-- Conato -->
+
+            <article class="contato" data-page="contato">
+                <header>
+                    <h2 class="h2 article-title">Contato</h2>
+                </header>
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Forma de contato</h3>
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Nome Completo" required
+                                data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Seu Email" required
+                                data-form-input>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="Digite sua menssagem" required
+                            data-form-input></textarea>
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Enviar menssagem</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!-- custom js link -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
